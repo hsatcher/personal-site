@@ -66,6 +66,17 @@ li + li {
   margin-top: 8px;
 }
 
+.work-list {
+  list-style-position: outside;
+}
+
+.work-date {
+  display: inline-block;
+  margin-left: 6px;
+  color: var(--text);
+  white-space: nowrap;
+}
+
 a {
   color: var(--link);
   text-decoration-thickness: 1px;
